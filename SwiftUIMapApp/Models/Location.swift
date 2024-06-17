@@ -19,3 +19,9 @@ struct Location: Identifiable {
 
     var id: String { name + cityName }
 }
+
+extension Location: Equatable {
+    static func == (lhs: Location, rhs: Location) -> Bool {
+        lhs.id == rhs.id
+    }
+}
