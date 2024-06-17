@@ -2,16 +2,20 @@
 //  SwiftUIMapAppApp.swift
 //  SwiftUIMapApp
 //
-//  Created by DataArt Viktor Drykin on 16.06.2024.
+//  Created by Viktor Drykin on 16.06.2024.
 //
 
 import SwiftUI
 
 @main
 struct SwiftUIMapAppApp: App {
+
+    @StateObject private var vm = LocationsViewModel()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LocationsView()
+                .environmentObject(vm)
         }
     }
 }
