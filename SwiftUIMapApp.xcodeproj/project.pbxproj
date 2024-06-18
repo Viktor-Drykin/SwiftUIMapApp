@@ -18,6 +18,7 @@
 		C0B41EAD2C208F3100AD28C3 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B41EAC2C208F3100AD28C3 /* LocationsListView.swift */; };
 		C0B41EAF2C2093DF00AD28C3 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B41EAE2C2093DF00AD28C3 /* LocationPreviewView.swift */; };
 		C0B41EB52C21ED0300AD28C3 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B41EB42C21ED0300AD28C3 /* LocationMapAnnotationView.swift */; };
+		C0B41EB72C21F1F200AD28C3 /* LocationDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B41EB62C21F1F200AD28C3 /* LocationDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		C0B41EAC2C208F3100AD28C3 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 		C0B41EAE2C2093DF00AD28C3 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 		C0B41EB42C21ED0300AD28C3 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
+		C0B41EB62C21F1F200AD28C3 /* LocationDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				C0B41EAC2C208F3100AD28C3 /* LocationsListView.swift */,
 				C0B41EAE2C2093DF00AD28C3 /* LocationPreviewView.swift */,
 				C0B41EB42C21ED0300AD28C3 /* LocationMapAnnotationView.swift */,
+				C0B41EB62C21F1F200AD28C3 /* LocationDetailsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0B41EB72C21F1F200AD28C3 /* LocationDetailsView.swift in Sources */,
 				C02974442C1F4068006B96A7 /* ContentView.swift in Sources */,
 				C0B41EB52C21ED0300AD28C3 /* LocationMapAnnotationView.swift in Sources */,
 				C0B41EAD2C208F3100AD28C3 /* LocationsListView.swift in Sources */,
