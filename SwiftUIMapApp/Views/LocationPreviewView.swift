@@ -2,7 +2,7 @@
 //  LocationPreviewView.swift
 //  SwiftUIMapApp
 //
-//  Created by DataArt Viktor Drykin on 17.06.2024.
+//  Created by Viktor Drykin on 17.06.2024.
 //
 
 import SwiftUI
