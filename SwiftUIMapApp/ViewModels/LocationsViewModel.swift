@@ -50,4 +50,22 @@ class LocationsViewModel: ObservableObject {
         }
     }
 
+    func nextButtonPressed() {
+        guard let currentIndex = locations.firstIndex(where: { $0 == mapLocation }) else {
+            return
+        }
+        let nextIndex = currentIndex + 1
+
+        let nextLocation: Location? = {
+            if locations.indices.contains(nextIndex) {
+                return locations[nextIndex]
+            }
+            return locations.first
+        }()
+
+        if let nextLocation = nextLocation {
+            showNextLocation(location: nextLocation)
+        }
+    }
+
 }
